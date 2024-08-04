@@ -1,0 +1,112 @@
+/*GENERAL CUSTOM*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --main-bg-color: #EFF2F9;
+    --blueLink-color: #0079FF;
+    --darkestfont-color:#04183E;
+    --faintPassword-color: #D0DAEF;
+    --loginButton-bg-color:#1DC763;
+    --loginButton-color:#fff;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: var(--main-bg-color);
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+/*LOGIN PANNEL CUSTOM*/
+
+.loginPanel{
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    height: 345px;
+}
+
+.welcomingText{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    margin: 20px 0px
+}
+
+
+/*EMAIL CUSTOM*/
+
+.emailLoginSettings{
+    margin-bottom: 20px;
+}
+
+.emailText {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--blueLink-color);
+    line-height: 14.06px;
+    margin-bottom: 5px;
+}
+
+.loginEmailInput{
+    border: none;
+    border-radius: 5px;
+    height: 48px;
+    width: 300px;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--darkestfont-color);
+    outline-color: var(--blueLink-color);
+    line-height: 16.41px;
+}
+
+
+/*PASSWROD CUSTOM*/
+.passwordLoginSettings{
+    margin-bottom: 40PX;
+}
+
+.senhaText {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    margin-bottom: 5px;
+}
+
+.loginPasswordInput{
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    height: 48px;
+    width: 300px;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--faintPassword-color);
+    line-height: 16.41px;
+}
+
+
+/*BUTTON CUSTOM*/
+
+.loginButton{
+    background-color: var(--loginButton-bg-color);
+    color: var(--loginButton-color);
+    width:300px;
+    height: 48px;
+    border-radius: 5px;
+    padding: 16px;
+    border: none;
+}
