@@ -1,0 +1,135 @@
+/*GENERAL CUSTOM*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0&family=Roboto:ital,wght@0,400;0,700;&display=swap');
+
+:root {
+    --header-bg-color: #252323;
+    --headerFont-color: #fff;
+    --mainFont-color: #fff;
+    --headerNotificarionBorder-color: #E4EBFB;
+    --dashRed-color: #FF0000;
+    --dashPink-color: #F6B5FF;
+    --dashGreen-color: #1DC763;
+    --dashBlue-color:#4173CD;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*HEADER CUSTOM*/
+
+.headerMenu {
+    background-color: var(--header-bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 76px;
+}
+
+.headerContainer {
+    padding: 0 40px;
+}
+
+.traktoEduImg {
+    width: 142.84;
+    height: 56px;
+}
+
+.rightHeaderMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 342px;
+}
+
+.calendaHeaderSetting {
+    display: flex;
+    color: var(--headerFont-color);
+    align-items: center;
+    font-family: 'Roboto';
+}
+
+.calendaHeaderSetting img {
+    margin-right: 10px;
+    height: 24px;
+}
+
+.notificationHeaderSetting {
+    width: 115px;
+    display: flex;
+    color: var(--headerFont-color);
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid var(--headerNotificarionBorder-color);
+    border-top: none;
+    border-bottom: none;
+}
+
+.notificationHeaderSetting img {
+    height: 24px;
+}
+
+
+.profileHeaderSetting img {
+    height: 40px;
+}
+
+
+/*MAIN CUSTOM*/
+
+.mainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 216px 40px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+
+.menuCard {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    align-items: center;
+}
+
+.menuCard h1{
+    font-size: 40.9px;
+    font-weight: 700;
+    color: var(--mainFont-color);
+}
+
+.menuCard img {
+    width: 300px;
+}
+
+.dashBlue{
+    width: 28px;
+    height: 4px;
+    background-color: var(--dashBlue-color);
+}
+
+.dashGreen{
+    width: 28px;
+    height: 4px;
+    background-color: var(--dashGreen-color);
+}
+
+.dashPink{
+    width: 28px;
+    height: 4px;
+    background-color: var(--dashPink-color);
+}
+
+.dashRed{
+    width: 28px;
+    height: 4px;
+    background-color: var(--dashRed-color);
+}
