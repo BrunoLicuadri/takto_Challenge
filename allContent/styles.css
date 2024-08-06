@@ -1,0 +1,221 @@
+/*******  GENERAL CUSTOM ****** */
+
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --header-bg-color: #fff;
+    --headerFont-color: #7183A6;
+    --main-bg-color: #EFF2F9;
+    --mainFont-color: #fff;
+    --dashRed-color: #FF0000;
+    --dashPink-color: #F6B5FF;
+    --dashGreen-color: #1DC763;
+    --dashBlue-color: #4173CD;
+    --tiagoName-color: #FFC13D;
+    --date-bg-color: #E4EBFB;
+    --content-color: #4743FF;
+    --section2Text-color: #354564;
+    --section2Text-second-color:#7183A6;
+    --youtube-color:#FF0100;
+    --youtubeBorder-color:#848484;
+
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.dflex {
+    display: flex;
+}
+
+
+/******* HEADER CUSTOM ****** */
+
+.headerMenu {
+    background-color: var(--header-bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 76px;
+    padding: 0 40px;
+}
+
+.leftMenuSettings {
+    align-items: center;
+}
+
+.envSwitch {
+    width: 254px;
+    height: 56px;
+    border-radius: 8px;
+    border: solid 1px var(--headerFont-color);
+    color: var(--headerFont-color);
+    margin: 16px 24px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.envSwitch img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+.traktoEduImg {
+    width: 142.84px;
+    height: 56px;
+}
+
+.rightHeaderMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 342px;
+}
+
+.calendaHeaderSetting {
+    display: flex;
+    color: var(--headerFont-color);
+    align-items: center;
+    font-family: 'Roboto';
+}
+
+.calendaHeaderSetting img {
+    margin-right: 10px;
+    height: 24px;
+}
+
+.notificationHeaderSetting {
+    width: 115px;
+    display: flex;
+    color: var(--headerFont-color);
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid var(--headerFont-color);
+    border-top: none;
+    border-bottom: none;
+}
+
+.notificationHeaderSetting img {
+    height: 24px;
+}
+
+
+.profileHeaderSetting img {
+    height: 40px;
+}
+
+
+
+/****** MAIN CUSTOM*******/
+
+main {
+    background-color: var(--main-bg-color);
+    padding: 40px;
+}
+
+
+
+/*******  SECTION2 CUSTOM *******/
+
+.section2 {
+    width: 1792px;
+    background-color: #fff;
+    height: 1028px;
+    padding: 56px 72px;
+    border-radius: 8px;
+}
+
+.section2Info {
+    width: 645px;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
+
+.dateContainer{
+    width: 251px;
+    height: 27px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sectionText{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sectionText h2{
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--section2Text-color);
+}
+
+.sectionText p{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--section2Text-second-color);
+}
+
+.arrowContainer{
+    width: 48px;
+    height: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.arrowContainer img{
+    width: 5.9px;
+    height: 13.2px;
+}
+
+
+.section2Date {
+    width: 195px;
+    height: 27px;
+    background-color: var(--date-bg-color);
+    border-radius: 500px;
+    padding: 4px 8px;
+}
+
+
+.cardContainer{
+    width: 1720px;
+    height: 236px;
+    margin-bottom: 28px;
+}
+
+
+.Card {
+    width: 310px;
+    height: 236px;
+    margin-right: 32px;
+}
+
+.Card img{
+    border-radius: 8px;
+    width: 310px;
+    height: 174px;
+    margin-bottom: 16px;
+}
+
+.Card p{
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 600;
+}
+
