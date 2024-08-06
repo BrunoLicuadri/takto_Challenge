@@ -4,9 +4,8 @@
 
 :root {
     --header-bg-color: #252323;
-    --headerFont-color: #fff;
+    --headerFont-color: ##E4EBFB;
     --mainFont-color: #fff;
-    --headerNotificarionBorder-color: #E4EBFB;
     --dashRed-color: #FF0000;
     --dashPink-color: #F6B5FF;
     --dashGreen-color: #1DC763;
@@ -67,7 +66,7 @@
     color: var(--headerFont-color);
     align-items: center;
     justify-content: space-evenly;
-    border: 1px solid var(--headerNotificarionBorder-color);
+    border: 1px solid var(--headerFont-color);
     border-top: none;
     border-bottom: none;
 }

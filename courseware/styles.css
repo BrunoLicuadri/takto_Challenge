@@ -1,0 +1,360 @@
+/*******  GENERAL CUSTOM ****** */
+
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --header-bg-color: #fff;
+    --headerFont-color: #7183A6;
+    --main-bg-color: #EFF2F9;
+    --mainFont-color: #fff;
+    --dashRed-color: #FF0000;
+    --dashPink-color: #F6B5FF;
+    --dashGreen-color: #1DC763;
+    --dashBlue-color: #4173CD;
+    --tiagoName-color: #FFC13D;
+    --date-bg-color: #E4EBFB;
+    --content-color: #4743FF;
+    --section2Text-color: #354564;
+    --section2Text-second-color:#7183A6;
+    --youtube-color:#FF0100;
+    --youtubeBorder-color:#848484;
+
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.dflex {
+    display: flex;
+}
+
+
+/******* HEADER CUSTOM ****** */
+
+.headerMenu {
+    background-color: var(--header-bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 76px;
+    padding: 0 40px;
+}
+
+.leftMenuSettings {
+    align-items: center;
+}
+
+.envSwitch {
+    width: 254px;
+    height: 56px;
+    border-radius: 8px;
+    border: solid 1px var(--headerFont-color);
+    color: var(--headerFont-color);
+    margin: 16px 24px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.envSwitch img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+.traktoEduImg {
+    width: 142.84px;
+    height: 56px;
+}
+
+.rightHeaderMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 342px;
+}
+
+.calendaHeaderSetting {
+    display: flex;
+    color: var(--headerFont-color);
+    align-items: center;
+    font-family: 'Roboto';
+}
+
+.calendaHeaderSetting img {
+    margin-right: 10px;
+    height: 24px;
+}
+
+.notificationHeaderSetting {
+    width: 115px;
+    display: flex;
+    color: var(--headerFont-color);
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid var(--headerFont-color);
+    border-top: none;
+    border-bottom: none;
+}
+
+.notificationHeaderSetting img {
+    height: 24px;
+}
+
+
+.profileHeaderSetting img {
+    height: 40px;
+}
+
+
+
+/****** MAIN CUSTOM*******/
+
+main {
+    background-color: var(--main-bg-color);
+    padding: 40px;
+}
+
+
+/******* SECTION1 CUSTOM ********/
+
+.section1 {
+    background-color: #1DC763;
+    background-image: url(../imgs/materialDidatico-bg1.png);
+}
+
+.section1Container{
+    width: 1792px;
+    height: 584px;
+    padding: 0 40px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+.tiagoImg{
+    width: 400.22px;
+    height: 500px;
+}
+
+
+.textContainer{
+    width: 774px;
+    height: 242px;
+}
+
+.jornadaText{
+    font-family: 'Poppins';
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 93.6px;
+    color: var(--mainFont-color);
+}
+
+.designEduText{
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37.5x;
+    color: var(--mainFont-color);
+}
+
+.tiagoContainer{
+    width: 349px;
+    height: 82px;
+    transform: rotate(-8.42deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tiagoDashedArrow{
+    width: 349px;
+    height: 82px;
+    display: flex;
+    justify-content: end;
+}
+
+.tiagoName {
+    font-family:'Happy Monkey';
+    font-size: 40.85px;
+    font-weight: 400;
+    line-height: 81.51px;
+    color: var(--tiagoName-color); 
+}
+
+.queSacoIssu{
+    display: flex;
+    height: 584px;
+    align-items: end;
+}
+
+.tiagoFrame{
+    align-items: center;
+}
+
+/*******  SECTION2 CUSTOM *******/
+
+.section2 {
+    width: 1792px;
+    background-color: #fff;
+    height: 519px;
+    padding: 56px 72px;
+    margin-bottom:  48px;
+
+}
+
+.sectionContainer{
+    width: 100%;
+    height: 98px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+
+.section2Info {
+    width: 645px;
+    height: 98px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dateContainer{
+    width: 251px;
+    height: 27px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sectionText{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sectionText h2{
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--section2Text-color);
+}
+
+.sectionText p{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--section2Text-second-color);
+}
+
+.arrowContainer{
+    width: 48px;
+    height: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.arrowContainer img{
+    width: 5.9px;
+    height: 13.2px;
+}
+
+
+.section2Date {
+    width: 195px;
+    height: 27px;
+    background-color: var(--date-bg-color);
+    border-radius: 500px;
+    padding: 4px 8px;
+}
+
+.seeAllContentContainer {
+    width: 180px;
+    height: 51px;
+    border: 1px solid var(--content-color);
+    border-radius: 8px;
+    padding: 16px 24px;
+
+}
+
+.seeAllContentContainer p{
+    width: 132px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    color: var(--content-color);
+}
+
+
+.Card {
+    width: 310px;
+    height: 236px;
+    margin-right: 32px;
+}
+
+.Card img{
+    border-radius: 8px;
+    width: 310px;
+    height: 174px;
+    margin-bottom: 16px;
+}
+
+.Card p{
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+
+
+/*******  SECTION3 CUSTOM *******/
+
+.section3 {
+    width: 1792px;
+    background-color: #fff;
+    height: 519px;
+    padding: 56px 72px;
+    margin-bottom:  48px;
+}
+
+.openUpYoutube {
+    width: 197px;
+    height: 52px;
+    border: 1px solid var(--youtube-color);
+    border-radius: 8px;
+    padding: 16px 24px;
+    align-items: center;
+}
+
+.openUpYoutube img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.openUpYoutube p{
+    width: 132px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    color: var(--youtube-color);
+}
+
+.youtubeCard{
+    width: 310px;
+    height: 174.29px;
+    margin-right: 32px;
+    
+}
